@@ -1,29 +1,17 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 6f;
-
-    Rigidbody rb;
-    Vector3 input;
-
-    void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
+    public float speed = 5f;
+    public float turnSpeed = 200f;
 
     void Update()
     {
-        // Get WASD input
-        float x = Input.GetAxisRaw("Horizontal");   // A/D
-        float z = Input.GetAxisRaw("Vertical");     // W/S
+        float move = Input.GetAxis("Vertical");
+        float turn = Input.GetAxis("Horizontal");
 
-        input = new Vector3(x, 0f, z).normalized;
-    }
-
-    void FixedUpdate()
-    {
-        rb.MovePosition(rb.position + input * moveSpeed * Time.fixedDeltaTime);
+        transform.Translate(Vector3.forward * move * speed * Time.deltaTime);
+        transform.Rotate(Vector3.up, turn * turnSpeed * Time.deltaTime);
     }
 }
 

@@ -1,0 +1,10 @@
+behaviors:
+  Ambusher:
+    trainer_type: ppo
+    max_steps: 5e6
+    time_horizon: 128
+    summary_freq: 10000
+    hyperparameters:
+      batch_size: 1024
+      buffer_size: 10240
+      learning_rate: 3e-4

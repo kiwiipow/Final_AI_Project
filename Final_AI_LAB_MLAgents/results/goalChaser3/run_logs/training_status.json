@@ -1,0 +1,29 @@
+{
+    "GoalSeeker": {
+        "checkpoints": [
+            {
+                "steps": 4096,
+                "file_path": "results\\goalChaser3\\GoalSeeker\\GoalSeeker-4096.onnx",
+                "reward": 0.5182947124305525,
+                "creation_time": 1767892838.4755845,
+                "auxillary_file_paths": [
+                    "results\\goalChaser3\\GoalSeeker\\GoalSeeker-4096.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4096,
+            "file_path": "results\\goalChaser3\\GoalSeeker.onnx",
+            "reward": 0.5182947124305525,
+            "creation_time": 1767892838.4755845,
+            "auxillary_file_paths": [
+                "results\\goalChaser3\\GoalSeeker\\GoalSeeker-4096.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.2.2+cu121"
+    }
+}
