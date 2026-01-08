@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1767911263",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Paula\\miniconda3\\envs\\mlagents\\Scripts\\mlagents-learn GoalChaser_config.yaml --run-id=GoalSeeker23-long --no-graphics",
+        "mlagents_version": "1.2.0.dev0",
+        "mlagents_envs_version": "1.2.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1767911313"
+    },
+    "total": 50.427227700012736,
+    "count": 1,
+    "self": 0.0089548000250943,
+    "children": {
+        "run_training.setup": {
+            "total": 0.10015409998595715,
+            "count": 1,
+            "self": 0.10015409998595715
+        },
+        "TrainerController.start_learning": {
+            "total": 50.318118800001685,
+            "count": 1,
+            "self": 0.000354300020262599,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 50.31775149999885,
+                    "count": 1,
+                    "self": 50.31775149999885
+                },
+                "trainer_threads": {
+                    "total": 1.100008375942707e-06,
+                    "count": 1,
+                    "self": 1.100008375942707e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.1899974197149277e-05,
+                    "count": 1,
+                    "self": 1.1899974197149277e-05
+                }
+            }
+        }
+    }
+}
