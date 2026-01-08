@@ -162,6 +162,8 @@ MonoBehaviour:
   obstacleMask:
     serializedVersion: 2
     m_Bits: 1
+  debugLogs: 0
+  drawRays: 1
   playerInSight: 0
   lastKnownPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
@@ -927,7 +929,7 @@ GameObject:
   - component: {fileID: 5024955079263671728}
   m_Layer: 7
   m_Name: RatPlayer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
