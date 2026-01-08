@@ -843,8 +843,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Final_AI_LAB_MLAgents
-  metroPackageVersion: 
+  metroPackageName: FinalAILABMLAgents
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -852,7 +852,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Final_AI_LAB_MLAgents
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Final_AI_LAB_MLAgents
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -919,7 +919,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 721c900e-0cdb-4513-9a65-4fd2f9543fd1
   framebufferDepthMemorylessMode: 0

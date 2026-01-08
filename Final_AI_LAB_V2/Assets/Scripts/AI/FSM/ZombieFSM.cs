@@ -76,12 +76,16 @@ public class ZombieFSM : MonoBehaviour
 
         if (!agent.pathPending && agent.remainingDistance < 0.5f)
             GoToNextPatrolPoint();
+        if(vision != null)
+        { 
+            if (vision.playerInSight)
+            {
+                currentState = State.Chase;
+                //UpdateStateText();
+            }
 
-        if (vision.playerInSight)
-        {
-            currentState = State.Chase;
-            //UpdateStateText();
         }
+       
 
     }
 

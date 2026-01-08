@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1767892263",
+        "python_version": "3.10.12 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 19:01:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Paula\\miniconda3\\envs\\mlagents\\Scripts\\mlagents-learn --run-id=goalChaser1",
+        "mlagents_version": "1.2.0.dev0",
+        "mlagents_envs_version": "1.2.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1767892325"
+    },
+    "total": 62.35881960002007,
+    "count": 1,
+    "self": 0.006023599999025464,
+    "children": {
+        "run_training.setup": {
+            "total": 0.03290230000857264,
+            "count": 1,
+            "self": 0.03290230000857264
+        },
+        "TrainerController.start_learning": {
+            "total": 62.31989370001247,
+            "count": 1,
+            "self": 0.00017070001922547817,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.31970430002548,
+                    "count": 1,
+                    "self": 62.31970430002548
+                },
+                "TrainerController._save_models": {
+                    "total": 1.869996776804328e-05,
+                    "count": 1,
+                    "self": 1.869996776804328e-05
+                }
+            }
+        }
+    }
+}
